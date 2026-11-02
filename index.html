@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">🌍 TravelRec</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter keyword (beach, temple, country)...">
+            <button id="searchBtn">Search</button>
+            <button id="clearBtn">Clear</button>
+        </div>
+    </nav>
+
+    <!-- Home Page Content -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Explore the World with Us</h1>
+            <p>Discover breathtaking beaches, magnificent temples, and vibrant cultures across the globe. Your next great adventure starts right here with our curated travel recommendations.</p>
+            <a href="#recommendations" class="btn">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Search Results Section -->
+    <main>
+        <section id="resultsContainer" class="results-grid"></section>
+    </main>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
