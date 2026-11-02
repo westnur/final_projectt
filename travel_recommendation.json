@@ -1,0 +1,72 @@
+{
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "imageUrl2": "https://images.unsplash.com/photo-1519046904884-53103b34b206",
+      "description": "An island group in the South Pacific known for its scuba diving, luxury resorts, and crystal-clear turquoise lagoons."
+    },
+    {
+      "id": 2,
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef",
+      "imageUrl2": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62",
+      "description": "One of the most famous beaches in the world, located in Rio de Janeiro, featuring vibrant culture and stunning views."
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://images.unsplash.com/photo-1596401057630-3652a353b3b4",
+      "imageUrl2": "https://images.unsplash.com/photo-1609854587216-9b884c8a209b",
+      "description": "A massive Buddhist temple complex in Cambodia and a UNESCO World Heritage site admired for its grand architecture."
+    },
+    {
+      "id": 2,
+      "name": "Taj Mahal, India",
+      "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523",
+      "imageUrl2": "https://images.unsplash.com/photo-1585135497237-fa494e149ef7",
+      "description": "An iconic ivory-white marble mausoleum on the right bank of the river Yamuna, showcasing exquisite Mughal design."
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26",
+          "imageUrl2": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+          "description": "A bustling metropolis blending ultra-modern technology with traditional temples and neon-lit skyscrapers."
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e",
+          "imageUrl2": "https://images.unsplash.com/photo-1528164344705-475426879c0d",
+          "description": "Famous for its classical Buddhist temples, gardens, imperial palaces, and traditional wooden houses."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1483445001140-5275e53383ab",
+          "imageUrl2": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f",
+          "description": "Famous for its sprawling Copacabana and Ipanema beaches, towering Christ the Redeemer statue, and lively spirit."
+        },
+        {
+          "name": "Sao Paulo, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1543489822-c491533cf408",
+          "imageUrl2": "https://images.unsplash.com/photo-1578632767115-351597cf2477",
+          "description": "A massive cultural financial hub known for its strong economic presence, architecture, and diverse dining scene."
+        }
+      ]
+    }
+  ]
+}
